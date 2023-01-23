@@ -1,11 +1,11 @@
 {
-    "name": "nord-wave",
-    "displayName": "Nord Wave",
-    "description": "Darker version of the awesome Nord theme",
+    "name": "nord-wave-bordered",
+    "displayName": "Nord Wave Bordered",
+    "description": "Darker, bordered version of the awesome Nord theme",
     "version": "0.3.5",
-    "publisher": "dnlytras",
-    "author": "Dimitrios Lytras <dnlytras@gmail.com>",
-    "repository": "https://github.com/DimitrisNL/nord-wave",
+    "publisher": "amonty",
+    "author": "Andrew Monty <andrew1503@gmail.com>",
+    "repository": "https://github.com/AndrewMonty/nord-wave-darker",
     "engines": {
         "vscode": "^1.14.0"
     },
@@ -17,14 +17,18 @@
         "arctic",
         "dark",
         "bluish",
-        "penato"
+        "penato",
+        "nord",
+        "wave",
+        "dark",
+        "bordered"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Nord Wave",
+                "label": "Nord Wave Bordered",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Nord Wave-color-theme.json"
+                "path": "./themes/Nord Wave Bordered-color-theme.json"
             }
         ]
     }
